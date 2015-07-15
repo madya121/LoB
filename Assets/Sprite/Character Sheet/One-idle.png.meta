@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 0e1d50da0f634f44bbded562edc5356b
+timeCreated: 1435726777
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: One-idle_0
+    21300002: One-idle_1
+    21300004: One-idle_2
+    21300006: One-idle_3
+    21300008: One-idle_4
+    21300010: One-idle_5
+    21300012: One-idle_6
+    21300014: One-idle_7
+    21300016: One-idle_8
+    21300018: One-idle_9
+    21300020: One-idle_10
+    21300022: One-idle_11
+    21300024: One-idle_12
+    21300026: One-idle_13
+    21300028: One-idle_14
+    21300030: One-idle_15
+    21300032: One-idle_16
+    21300034: One-idle_17
+    21300036: One-idle_18
+    21300038: One-idle_19
+    21300040: One-idle_20
+    21300042: One-idle_21
+    21300044: One-idle_22
+    21300046: One-idle_23
+    21300048: One-idle_24
+    21300050: One-idle_25
+    21300052: One-idle_26
+    21300054: One-idle_27
+    21300056: One-idle_28
+    21300058: One-idle_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: One-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_2
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_5
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_6
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_7
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_8
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_9
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1824
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_12
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_15
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_16
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_17
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_18
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_19
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 912
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_22
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_25
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_26
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_27
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_28
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 0
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

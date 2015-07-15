@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 64bfc9c7706a2214099ab945b26fbd0c
+timeCreated: 1435726089
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: One-walking_0
+    21300002: One-walking_1
+    21300004: One-walking_2
+    21300006: One-walking_3
+    21300008: One-walking_4
+    21300010: One-walking_5
+    21300012: One-walking_6
+    21300014: One-walking_7
+    21300016: One-walking_8
+    21300018: One-walking_9
+    21300020: One-walking_10
+    21300022: One-walking_11
+    21300024: One-walking_12
+    21300026: One-walking_13
+    21300028: One-walking_14
+    21300030: One-walking_15
+    21300032: One-walking_16
+    21300034: One-walking_17
+    21300036: One-walking_18
+    21300038: One-walking_19
+    21300040: One-walking_20
+    21300042: One-walking_21
+    21300044: One-walking_22
+    21300046: One-walking_23
+    21300048: One-walking_24
+    21300050: One-walking_25
+    21300052: One-walking_26
+    21300054: One-walking_27
+    21300056: One-walking_28
+    21300058: One-walking_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: One-walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_2
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_3
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_4
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_5
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_6
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_7
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_8
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_9
+      rect:
+        serializedVersion: 2
+        x: 5625
+        y: 1844
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_12
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_14
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_15
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_16
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_17
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_18
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_19
+      rect:
+        serializedVersion: 2
+        x: 5625
+        y: 922
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_22
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_23
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_24
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_25
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_26
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_27
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_28
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: One-walking_29
+      rect:
+        serializedVersion: 2
+        x: 5625
+        y: 0
+        width: 625
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
