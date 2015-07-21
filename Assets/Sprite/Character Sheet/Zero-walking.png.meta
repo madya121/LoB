@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 11d0a355fb132fe40b43f32a9ef37e89
+timeCreated: 1437232313
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zero-walking_0
+    21300002: Zero-walking_1
+    21300004: Zero-walking_2
+    21300006: Zero-walking_3
+    21300008: Zero-walking_4
+    21300010: Zero-walking_5
+    21300012: Zero-walking_6
+    21300014: Zero-walking_7
+    21300016: Zero-walking_8
+    21300018: Zero-walking_9
+    21300020: Zero-walking_10
+    21300022: Zero-walking_11
+    21300024: Zero-walking_12
+    21300026: Zero-walking_13
+    21300028: Zero-walking_14
+    21300030: Zero-walking_15
+    21300032: Zero-walking_16
+    21300034: Zero-walking_17
+    21300036: Zero-walking_18
+    21300038: Zero-walking_19
+    21300040: Zero-walking_20
+    21300042: Zero-walking_21
+    21300044: Zero-walking_22
+    21300046: Zero-walking_23
+    21300048: Zero-walking_24
+    21300050: Zero-walking_25
+    21300052: Zero-walking_26
+    21300054: Zero-walking_27
+    21300056: Zero-walking_28
+    21300058: Zero-walking_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Zero-walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_1
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_2
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_3
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_4
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_5
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_6
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_7
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_8
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_9
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 1858
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_12
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_13
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_14
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_15
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_16
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_17
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_18
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_19
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 929
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_22
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_23
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_24
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_25
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_26
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_27
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_28
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-walking_29
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 0
+        width: 531
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

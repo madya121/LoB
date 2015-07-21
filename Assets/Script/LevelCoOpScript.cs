@@ -9,6 +9,8 @@ public class LevelCoOpScript : MonoBehaviour {
 	public ShutdownTriggerScript shutdownTrigger;
 	public TurnOnTriggerScript turnOnTrigger;
 	public string jumpInto;
+	public Animator cameraAnimator;
+	public ParticleSystem backgroundParticle;
 	
 	public bool isOne = true;
 	
@@ -59,6 +61,9 @@ public class LevelCoOpScript : MonoBehaviour {
 	}
 	
 	public void TurnOffAllObstacles() {
+		cameraAnimator.SetTrigger("Off");
+		backgroundParticle.enableEmission = false;
+		
 		// SHUTDOWN ALL BOXES
 		GameObject[] boxes = GameObject.FindGameObjectsWithTag("Box");
 		foreach(GameObject box in boxes) {
@@ -72,11 +77,15 @@ public class LevelCoOpScript : MonoBehaviour {
 		
 		GameObject[] deadTriggers = GameObject.FindGameObjectsWithTag("Dead Trigger");
 		foreach(GameObject deadTrigger in deadTriggers) {
-			deadTrigger.GetComponent<BoxCollider2D>().enabled = false;
+			if (deadTrigger.name.Equals("Dead Bottom") == false)
+				deadTrigger.GetComponent<BoxCollider2D>().enabled = false;
 		}
 	}
 	
 	public void TurnOnAllObstacles() {
+		cameraAnimator.SetTrigger("On");
+		backgroundParticle.enableEmission = true;
+	
 		// TURN ON ALL BOXES
 		GameObject[] boxes = GameObject.FindGameObjectsWithTag("Box");
 		foreach(GameObject box in boxes) {

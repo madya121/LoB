@@ -52,9 +52,11 @@ public class OneControllerScript : MonoBehaviour {
 	}
 	
 	void OnDisable() {
-		animatorGraphic.SetBool("Walk", false);
+		if (animatorGraphic)
+			animatorGraphic.SetBool("Walk", false);
 		moving = false;
-		particleSys.enableEmission = false;
+		if (particleSys)
+			particleSys.enableEmission = false;
 	}
 	
 	void InputManager() {

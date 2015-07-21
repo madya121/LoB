@@ -10,6 +10,7 @@ public class BoxScript : MonoBehaviour {
 	public SpriteRenderer point1Sprite, point2Sprite;
 	public bool isVertical = false;
 	public int speed;
+	public Sprite move, stop, shutdown;
 	
 	private Rigidbody2D rgbd2D;
 	private float second = 2;
@@ -17,19 +18,22 @@ public class BoxScript : MonoBehaviour {
 	
 	private float minX, maxX, minY, maxY;
 	
-	private bool isShutdown = false;
+	private bool isShutdown = false, playerIsOnTheBox = false;
+	
+	private SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
 	void Start () {
 		ErrorCheck();
-	
+		spriteRenderer = GetComponent<SpriteRenderer>();
 		rgbd2D = GetComponent<Rigidbody2D>();
 		
 		if (boxBehavior == BoxBehavior.KEEP_MOVING || boxBehavior == BoxBehavior.MOVE_THEN_STOP) {
+			spriteRenderer.sprite = move;
 			if (isVertical)
 				rgbd2D.velocity = new Vector2(0, speed);
 			else rgbd2D.velocity = new Vector2(speed, 0);
-		}
+		} else spriteRenderer.sprite = stop;
 		
 		minX = Mathf.Min(point1.position.x, point2.position.x);
 		maxX = Mathf.Max(point1.position.x, point2.position.x);
@@ -39,7 +43,7 @@ public class BoxScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		UpdatePosition();
+		
 	}
 	
 	void ErrorCheck() {
@@ -57,6 +61,8 @@ public class BoxScript : MonoBehaviour {
 	}
 	
 	void UpdatePosition() {
+		if (!isMoving) return;
+		
 		float x = transform.position.x;
 		float y = transform.position.y;
 		Vector3 position = transform.position;
@@ -84,8 +90,13 @@ public class BoxScript : MonoBehaviour {
 		}
 	}
 	
+	void LateUpdate() {
+		UpdatePosition();
+	}
+	
 	void FlipMovement() {
 		speed *= -1;
+		
 		if (isVertical) rgbd2D.velocity = new Vector2(0, speed);
 		else rgbd2D.velocity = new Vector2(speed, 0);
 	}
@@ -94,6 +105,7 @@ public class BoxScript : MonoBehaviour {
 		CancelInvoke();
 		rgbd2D.velocity = Vector2.zero;
 		isMoving = false;
+		spriteRenderer.sprite = stop;
 	}
 	
 	public void StartBox() {
@@ -103,44 +115,52 @@ public class BoxScript : MonoBehaviour {
 	}
 	
 	public void MoveBoxImmediately() {
+		isMoving = true;
 		if (isVertical) rgbd2D.velocity = new Vector2(0, speed);
 		else rgbd2D.velocity = new Vector2(speed, 0);
 	}
 	
 	public void StopBoxImmediately() {
+		isMoving = false;
 		rgbd2D.velocity = Vector2.zero;
 	}
 	
 	public void PlayerOnBox() {
+		playerIsOnTheBox = true;
 		if (isShutdown) return;
 		if (boxBehavior == BoxBehavior.MOVE_THEN_STOP)
 			StopBox();
 		if (boxBehavior == BoxBehavior.STOP_THEN_MOVING)
-			MoveBoxImmediately();
+			StartBox();
 	}
 	
 	public void PlayerLeaveBox() {
+		playerIsOnTheBox = false;
 		if (isShutdown) return;
 		if (boxBehavior == BoxBehavior.MOVE_THEN_STOP)
 			StartBox();
 		if (boxBehavior == BoxBehavior.STOP_THEN_MOVING)
-			StopBoxImmediately();
+			StopBox();
 	}
 	
 	void MovingBox() {
 		if (isMoving == false) return;
 		if (isVertical) rgbd2D.velocity = new Vector2(0, speed);
 		else rgbd2D.velocity = new Vector2(speed, 0);
+		spriteRenderer.sprite = move;
 	}
 	
 	public void Shutdown() {
 		isShutdown = true;
 		StopBoxImmediately();
+		spriteRenderer.sprite = shutdown;
 	}
 	
 	public void TurnOn() {
 		isShutdown = false;
-		if (boxBehavior == BoxBehavior.KEEP_MOVING || boxBehavior == BoxBehavior.MOVE_THEN_STOP)
+		if (boxBehavior == BoxBehavior.KEEP_MOVING || boxBehavior == BoxBehavior.MOVE_THEN_STOP) {
 			MoveBoxImmediately();
+			spriteRenderer.sprite = move;
+		} else spriteRenderer.sprite = stop;
 	}
 }

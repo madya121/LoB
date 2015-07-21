@@ -24,10 +24,13 @@ public class MainCameraScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		kamera.orthographicSize = Mathf.Lerp(
-			kamera.orthographicSize,
-			sizeCameraNow,
-			2 * Time.deltaTime);
+		if (Mathf.Abs(kamera.orthographicSize - sizeCameraNow) < 0.1)
+			kamera.orthographicSize = sizeCameraNow;
+		else 
+			kamera.orthographicSize = Mathf.Lerp(
+				kamera.orthographicSize,
+				sizeCameraNow,
+				0.1f);
 			
 		Vector3 position = new Vector3(followingPosition.position.x, followingPosition.position.y, transform.position.z);
 		transform.position = Vector3.SmoothDamp(transform.position, position, 

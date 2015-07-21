@@ -4,6 +4,7 @@ using System.Collections;
 public class OneTriggerScript : MonoBehaviour {
 
 	public OneControllerScript oneController;
+	public Transform oneTransform;
 
 	// Use this for initialization
 	void Start () {

@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 53f26a7921701ab4b8c5598f888954c2
+timeCreated: 1437232052
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zero-idle_0
+    21300002: Zero-idle_1
+    21300004: Zero-idle_2
+    21300006: Zero-idle_3
+    21300008: Zero-idle_4
+    21300010: Zero-idle_5
+    21300012: Zero-idle_6
+    21300014: Zero-idle_7
+    21300016: Zero-idle_8
+    21300018: Zero-idle_9
+    21300020: Zero-idle_10
+    21300022: Zero-idle_11
+    21300024: Zero-idle_12
+    21300026: Zero-idle_13
+    21300028: Zero-idle_14
+    21300030: Zero-idle_15
+    21300032: Zero-idle_16
+    21300034: Zero-idle_17
+    21300036: Zero-idle_18
+    21300038: Zero-idle_19
+    21300040: Zero-idle_20
+    21300042: Zero-idle_21
+    21300044: Zero-idle_22
+    21300046: Zero-idle_23
+    21300048: Zero-idle_24
+    21300050: Zero-idle_25
+    21300052: Zero-idle_26
+    21300054: Zero-idle_27
+    21300056: Zero-idle_28
+    21300058: Zero-idle_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Zero-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_2
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_5
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_6
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_7
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_8
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_9
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1830
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_15
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_16
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_17
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_18
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_19
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 915
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_21
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_22
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_25
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_26
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_27
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_28
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 0
+        width: 406
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
